@@ -1,0 +1,4 @@
+2
+  RED true
+  YELLOW false  
+  RED OR YELLOW -> SLOW-DOWN

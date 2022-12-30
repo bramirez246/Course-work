@@ -1,0 +1,102 @@
+Script started on Sat 17 Dec 2022 01:45:31 PM PST
+]0;ramir943@empress:~/CS471/FinalProject[?1034h[ramir943@empress FinalProject]$ g++ -o toh.out toh.cpp
+]0;ramir943@empress:~/CS471/FinalProject[ramir943@empress FinalProject]$ ./toh.out
+First char represents small disk, second char represents medium disk
+and third char represents large disk. Initial state is all disks on left e.g. 'LLL'
+>>>Expand: LLL
+Trying to add: MLL safe!
+not in frontier yet!
+Trying to add: RLL safe!
+not in frontier yet!
+Frontier is:
+MLL g = 1 h = 3 f = 4
+RLL g = 1 h = 2 f = 3
+Best is: RLL
+y
+>>>Expand: RLL
+Trying to add: MLL safe!
+not in frontier yet!
+Trying to add: LLL already been there!
+Trying to add: RML safe!
+not in frontier yet!
+Trying to add: RRL unsafe!
+Frontier is:
+MLL g = 2 h = 3 f = 5
+RML g = 2 h = 2 f = 4
+Best is: RML
+y
+>>>Expand: RML
+Trying to add: MML safe!
+not in frontier yet!
+Trying to add: LML safe!
+not in frontier yet!
+Trying to add: RLL already been there!
+Trying to add: RRL unsafe!
+Trying to add: RMM unsafe!
+Trying to add: RMR unsafe!
+Frontier is:
+MML g = 3 h = 3 f = 6
+LML g = 3 h = 3 f = 6
+Best is: MML
+y
+>>>Expand: MML
+Trying to add: LML safe!
+not in frontier yet!
+Trying to add: RML already been there!
+Trying to add: MMM unsafe!
+Trying to add: MMR safe!
+not in frontier yet!
+Frontier is:
+LML g = 4 h = 3 f = 7
+MMR g = 4 h = 2 f = 6
+Best is: MMR
+y
+>>>Expand: MMR
+Trying to add: LMR safe!
+not in frontier yet!
+Trying to add: RMR safe!
+not in frontier yet!
+Trying to add: MMM unsafe!
+Trying to add: MML already been there!
+Frontier is:
+LMR g = 5 h = 2 f = 7
+RMR g = 5 h = 2 f = 7
+Best is: LMR
+y
+>>>Expand: LMR
+Trying to add: MMR already been there!
+Trying to add: RMR safe!
+not in frontier yet!
+Trying to add: LLR unsafe!
+Trying to add: LRR safe!
+not in frontier yet!
+Trying to add: LMM unsafe!
+Trying to add: LML unsafe!
+Frontier is:
+RMR g = 6 h = 2 f = 8
+LRR g = 6 h = 1 f = 7
+Best is: LRR
+y
+>>>Expand: LRR
+Trying to add: MRR safe!
+not in frontier yet!
+Trying to add: RRR
+>>Reached: RRR
+came from
+LRR
+came from
+LMR
+came from
+MMR
+came from
+MML
+came from
+RML
+came from
+RLL
+came from
+LLL
+]0;ramir943@empress:~/CS471/FinalProject[ramir943@empress FinalProject]$ exit
+exit
+
+Script done on Sat 17 Dec 2022 01:46:10 PM PST
