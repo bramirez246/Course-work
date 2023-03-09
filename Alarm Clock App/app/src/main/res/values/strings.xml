@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PomodoroClock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_pomBanner">Pomodoro Timer</string>
+    <string name="tv_getReady">Get Ready</string>
+
+    <string name="btn_study">Study</string>
+    <string name="btn_shortBreak">Short Break</string>
+    <string name="btn_longBreak">Long Break</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+
+</resources>

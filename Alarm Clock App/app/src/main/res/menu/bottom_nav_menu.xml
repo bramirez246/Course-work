@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_clock"
+        android:title="Clock"
+        android:icon="@drawable/ic_clock"
+        >
+    </item>
+
+    <item
+        android:id="@+id/ic_stop_watch"
+        android:title="Stop Watch"
+        android:icon="@drawable/ic_stop_watch"
+        >
+    </item>
+    <item
+        android:id="@+id/ic_timer"
+        android:title="Timer"
+        android:icon="@drawable/ic_timer"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/ic_Pomodoro"
+        android:title="Pomodoro"
+        android:icon="@drawable/ic_pomodoro"
+        >
+    </item>
+
+    <item
+        android:id="@+id/ic_AlarmList"
+        android:title="Alarms"
+        android:icon="@drawable/ic_baseline_more_time_24"
+        >
+    </item>
+
+</menu>
